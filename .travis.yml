@@ -7,5 +7,4 @@ node_js:
 install: "make"
 
 script:
-  - make init
   - make docs
