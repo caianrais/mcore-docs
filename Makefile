@@ -9,6 +9,9 @@ DEST=./docs/index.html
 
 RECIPE=$(AGLIO) -i $(SOURCE) --theme-variables $(THEME) -o $(DEST) $(FLAGS)
 
+build:
+	bash deploy.sh
+
 docs:
 	$(RECIPE)
 
