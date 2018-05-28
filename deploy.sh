@@ -20,13 +20,13 @@ cd ..
 mv mcore-docs/docs/index.html ./
 git clone -b gh-pages "https://${TARGET_REPO}" gh-pages
 mv index.html gh-pages/
+cd gh-pages
 
 # Configura o Git
 git config user.name "Travis CI"
 git config user.email "caianrais@protonmail.com"
 
 # Se não houver nenhuma diferença entre o artefato atual e o novo, finalizar.
-cd gh-pages
 if git diff --quiet;
 then
     echo "No changes in the artifact. Exiting..."
