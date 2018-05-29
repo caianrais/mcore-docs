@@ -1,0 +1,8 @@
+{
+    "data": {
+        "uri": "/api/v1/admins/1",
+        "id": 1
+    },
+    "code": 201,
+    "status": "Success"
+}
