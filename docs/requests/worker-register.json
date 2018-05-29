@@ -1,0 +1,25 @@
+{
+    "data":{
+        "name":"Luigi Rocha",
+        "licenseId":"92491851119",
+        "birthday":"15-8-1997",
+        "rg":"344406737",
+        "licenseType":"L",
+        "gender":"M",
+        "address":{
+            "postcode":"30210388",
+            "number":"392",
+            "complement":"Sala N"
+        },
+        "telephone":"06174772887",
+        "password":"3!K0(n7sY)DH8cywCDw5jKpD(Do(XA)@",
+        "cpf":"47477268783",
+        "email":"luigi70@bol.com.br",
+        "vehicle":{
+            "model":"Modelo Port",
+            "brand":"Burke PLC",
+            "plate":"OXV-8961",
+            "year":"1993"
+        }
+    }
+}
