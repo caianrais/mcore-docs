@@ -16,7 +16,7 @@
 
     + Body
 
-            <!-- include(responses/invalid-request.json) -->
+            <!-- include(responses/bad-request.json) -->
 
 + Response 403 (application/json)
 
