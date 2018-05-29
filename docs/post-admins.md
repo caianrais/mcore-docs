@@ -4,13 +4,13 @@
 
     + Body
 
-            <!-- include(requests/admin-register.json) -->
+            <!-- include(requests/admin-registration.json) -->
 
 + Response 201 (application/json)
 
     + Body
 
-            <!-- include(responses/admin-created.json) -->
+            <!-- include(responses/admin-registered.json) -->
 
 + Response 400 (application/json)
 

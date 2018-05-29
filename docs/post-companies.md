@@ -4,13 +4,13 @@
 
     + Body
 
-            <!-- include(requests/company-register.json) -->
+            <!-- include(requests/company-registration.json) -->
 
 + Response 201 (application/json)
 
     + Body
 
-            <!-- include(responses/company-created.json) -->
+            <!-- include(responses/company-registered.json) -->
 
 + Response 400 (application/json)
 
