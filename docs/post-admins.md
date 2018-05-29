@@ -6,7 +6,7 @@
 
             <!-- include(requests/admin-register.json) -->
 
-+ Response 200 (application/json)
++ Response 201 (application/json)
 
     + Body
 
