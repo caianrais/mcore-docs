@@ -1,5 +1,5 @@
 {
     "status": "Error",
-    "code": 403,
+    "code": 400,
     "error": "Requisição inválida."
 }
