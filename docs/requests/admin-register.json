@@ -1,0 +1,18 @@
+{
+    "data":{
+        "name":"Julia Chiba",
+        "gender":"F",
+        "birthday":"11-12-1997",
+        "password":"An7Jv!Jbjto^R)L&freo2+$01)4FPJdT",
+        "email":"julia.chiba@uol.com.br",
+        "cpf":"32304545603",
+        "address":{
+            "postcode":"29120151",
+            "number":"34",
+            "complement":"Sala Z"
+        },
+        "rg":"007274492",
+        "telephone":"8102783682",
+        "authorityLevel":"1"
+    }
+}
