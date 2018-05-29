@@ -6,9 +6,10 @@ set -e
 SOURCE_BRANCH="master"
 TARGET_REPO="github.com/caianrais/mcore-docs"
 
+# Guarda o SHA da última revisão (aka último commit) da master.
 SHA=$(git rev-parse --verify HEAD)
 
-# Ignorar build no caso de pull requests e commits fora da master.
+# Ignora build no caso de pull requests e commits fora da master.
 if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ];
 then
     echo "Skipping deploy..."
@@ -18,6 +19,7 @@ fi
 # Copia o artefato para a $HOME e clona a branch "gh-pages".
 cd ..
 mv mcore-docs/docs/index.html ./
+
 git clone -b gh-pages "https://${TARGET_REPO}" gh-pages
 mv index.html gh-pages/
 cd gh-pages
@@ -35,6 +37,6 @@ fi
 
 # Adiciona o novo artefato e dá push na branch do GitHub pages sem output no SDTOUT.
 git add index.html
-git commit -m "Deploy to GitHub pages: ${SHA}"
+git commit -m "docs: deploy no GitHub pages (rev: ${SHA})"
 
 git push --force --quiet "https://${GITHUB_ACCESS_TOKEN}@${TARGET_REPO}" gh-pages:gh-pages > /dev/null 2>&1
