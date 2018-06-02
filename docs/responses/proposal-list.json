@@ -26,24 +26,6 @@
             "deadline": "2018-07-15T00:00:00+00:00",
             "title": "Voluptatum officia nam",
             "uid": 3
-        },
-        {
-            "company": {
-                "name": "Padilla Inc",
-                "uid": 7
-            },
-            "deadline": "2018-06-07T00:00:00+00:00",
-            "title": "Nulla vel minima asperiores saepe commodi",
-            "uid": 4
-        },
-        {
-            "company": {
-                "name": "Jordan and Sons",
-                "uid": 9
-            },
-            "deadline": "2018-06-21T00:00:00+00:00",
-            "title": "Nostrum debitis suscipit aliquid saepe iusto",
-            "uid": 5
         }
     ],
     "code": 200,
