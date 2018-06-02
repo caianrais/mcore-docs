@@ -3,40 +3,46 @@
         "token":"token-de-autenticacao"
     },
     "data":{
-        "originAddress":{
-            "postcode":"88229859",
-            "number":"82",
-            "complement":"Sala K"
-        },
+        "title":"Título da Proposta",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing",
+        "companyUid":1,
+        "status":"True",
+        "deadline":"21-6-2018",
         "items":[
             {
+                "title":"Nome do Item Um",
                 "fragile":"True",
                 "height":"2.09",
                 "weight":"9.20",
                 "width":"5.58"
             },
             {
+                "title":"Nome do Item Dois",
                 "fragile":"False",
                 "height":"3.43",
                 "weight":"4.15",
                 "width":"2.29"
             },
             {
+                "title":"Nome do Item Três",
                 "fragile":"True",
                 "height":"0.23",
                 "weight":"0.61",
                 "width":"9.67"
             },
             {
+                "title":"Nome do Item Quatro",
                 "fragile":"False",
                 "height":"2.98",
                 "weight":"7.48",
                 "width":"8.20"
             }
         ],
-        "companyUid":1,
-        "status":"True",
-        "deadline":"21-6-2018",
+        "originAddress":{
+            "postcode":"88229859",
+            "number":"82",
+            "complement":"Sala K"
+        },
         "destinationAddress":{
             "postcode":"94915669",
             "number":"85",
