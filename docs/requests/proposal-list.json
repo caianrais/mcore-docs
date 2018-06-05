@@ -1,0 +1,5 @@
+{
+    "auth": {
+        "token": "meu-token-auto-expirativo"
+    }
+}
