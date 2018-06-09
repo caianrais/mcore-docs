@@ -1,0 +1,53 @@
+{
+    "code":200,
+    "data":[
+        {
+            "company":{
+                "name":"Moore PLC",
+                "uid":16
+            },
+            "deadline":"2018-07-14T00:00:00+00:00",
+            "description":"Cumque sit a in. Sapiente dolores dignissimos.",
+            "destination":{
+                "complement":"Sala B",
+                "number":"15",
+                "postcode":"01311300"
+            },
+            "items":[
+                {
+                    "fragile":true,
+                    "height":8.78,
+                    "title":"Facere odit",
+                    "weight":0.86,
+                    "width":5.48
+                },
+                {
+                    "fragile":false,
+                    "height":2.49,
+                    "title":"Officia",
+                    "weight":6.38,
+                    "width":6.35
+                }
+            ],
+            "offers":[
+                {
+                    "bidder":{
+                        "name":"Sarah Martins",
+                        "uid":33
+                    },
+                    "price":90000,
+                    "uid":1
+                }
+            ],
+            "origin":{
+                "complement":"Sala D",
+                "number":"72",
+                "postcode":"03660050"
+            },
+            "status":true,
+            "title":"Quibusdam dignissimos fuga repellendus atque consequuntur",
+            "uid":2
+        }
+    ],
+    "status":"Success"
+}
