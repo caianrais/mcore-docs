@@ -3,12 +3,6 @@ HOST: https://makeyourfrete.com/api/v1
 
 # MakeYourFrete Core API
 
-
-
-# Data Structures
-
-
-
 # Group Admins
 Grupo de recursos dos perfis administrativos.
 
@@ -48,3 +42,11 @@ Grupo de recursos das propostas de corrida.
 ## Criação e Listagem de Propostas [/proposals]
 <!-- include(resources/post-proposals.md) -->
 <!-- include(resources/get-proposals.md) -->
+
+## Proposta [/proposals/{uid}]
+
++ Parameters
+
+    + uid:`123` (required, int) - O identificador único da proposta.
+
+<!-- include(resources/get-proposal-by-id.md) -->
