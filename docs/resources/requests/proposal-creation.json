@@ -22,20 +22,6 @@
                 "height":"3.43",
                 "weight":"4.15",
                 "width":"2.29"
-            },
-            {
-                "title":"Nome do Item Três",
-                "fragile":"True",
-                "height":"0.23",
-                "weight":"0.61",
-                "width":"9.67"
-            },
-            {
-                "title":"Nome do Item Quatro",
-                "fragile":"False",
-                "height":"2.98",
-                "weight":"7.48",
-                "width":"8.20"
             }
         ],
         "originAddress":{
