@@ -1,0 +1,9 @@
+{
+    "data": {
+        "uri": "/api/v1/proposals/123/offer/1",
+        "id": 1
+    },
+    "code": 201,
+    "status": "Success"
+}
+
