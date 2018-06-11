@@ -1,0 +1,21 @@
+{
+    "code": 200,
+    "data": {
+        "addresses": [
+            {
+                "complement": "Sala U",
+                "number": "68",
+                "postcode": "03028040"
+            }
+        ],
+        "authority_level": 1,
+        "birthday": "1997-08-03T00:00:00+00:00",
+        "cpf": "46299542958",
+        "email": "juan78@yahoo.com.br",
+        "gender": "M",
+        "name": "Vinicius Aragão",
+        "rg": "864233398",
+        "telephone": "03198572393"
+    },
+    "status": "Success"
+}

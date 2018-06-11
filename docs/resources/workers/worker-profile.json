@@ -1,0 +1,30 @@
+{
+    "code": 200,
+    "data": {
+        "addresses": [
+            {
+                "complement": "Sala H",
+                "number": "37",
+                "postcode": "02927080"
+            }
+        ],
+        "birthday": "1997-03-30T00:00:00+00:00",
+        "cpf": "11261812685",
+        "email": "hazevedo@da.br",
+        "gender": "M",
+        "license_id": "88767968674",
+        "license_type": "C",
+        "name": "Enzo Moura",
+        "rg": "442522709",
+        "telephone": "8197596498",
+        "vehicles": [
+            {
+                "brand": "Lowe and Sons",
+                "model": "Modelo North",
+                "plate": "MUA-1130",
+                "year": 2003
+            }
+        ]
+    },
+    "status": "Success"
+}

@@ -1,0 +1,18 @@
+{
+    "code": 200,
+    "data": {
+        "addresses": [
+            {
+                "complement": "Sala E",
+                "number": "496",
+                "postcode": "03128010"
+            }
+        ],
+        "cnpj": "81068352895644",
+        "email": "beckerleslie@roberts-moore.com",
+        "name": "Fletcher, Harris and Fowler",
+        "opening": "2005-12-22T00:00:00+00:00",
+        "telephone": "07108456372"
+    },
+    "status": "Success"
+}
