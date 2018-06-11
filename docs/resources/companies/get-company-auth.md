@@ -10,16 +10,16 @@
 
     + Body
 
-            <!-- include(../../responses/authenticated.json) -->
+            <!-- include(../../default/authenticated.json) -->
 
 + Response 400 (application/json)
 
     + Body
 
-            <!-- include(../../responses/bad-request.json) -->
+            <!-- include(../../default/bad-request.json) -->
 
 + Response 403 (application/json)
 
     + Body
 
-            <!-- include(../../responses/incorrect-email-or-password.json) -->
+            <!-- include(../../default/incorrect-email-or-password.json) -->

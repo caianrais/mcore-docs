@@ -16,4 +16,4 @@
 
     + Body
 
-            <!-- include(../../responses/bad-request.json) -->
+            <!-- include(../../default/bad-request.json) -->

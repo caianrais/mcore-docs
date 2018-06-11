@@ -16,16 +16,16 @@
 
     + Body
 
-            <!-- include(../../responses/bad-request.json) -->
+            <!-- include(../../default/bad-request.json) -->
 
 + Response 403 (application/json)
 
     + Body
 
-            <!-- include(../../responses/forbidden.json) -->
+            <!-- include(../../default/forbidden.json) -->
 
 + Response 404 (application/json)
 
     + Body
 
-            <!-- include(../../responses/not-found.json) -->
+            <!-- include(../../default/not-found.json) -->
