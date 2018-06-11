@@ -4,7 +4,7 @@
 
     + Body
 
-            <!-- include(proposal-request.json) -->
+            <!-- include(../../default/authenticate.json) -->
 
 + Response 200 (application/json)
 

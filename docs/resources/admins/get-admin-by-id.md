@@ -4,7 +4,7 @@
 
     + Body
 
-            <!-- include(admin.json) -->
+            <!-- include(../../default/authenticate.json) -->
 
 + Response 200 (application/json)
 
