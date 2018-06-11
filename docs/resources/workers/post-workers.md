@@ -4,16 +4,16 @@
 
     + Body
 
-            <!-- include(requests/worker-registration.json) -->
+            <!-- include(worker-registration.json) -->
 
 + Response 201 (application/json)
 
     + Body
 
-            <!-- include(responses/worker-registered.json) -->
+            <!-- include(worker-registered.json) -->
 
 + Response 400 (application/json)
 
     + Body
 
-            <!-- include(responses/bad-request.json) -->
+            <!-- include(../../responses/bad-request.json) -->

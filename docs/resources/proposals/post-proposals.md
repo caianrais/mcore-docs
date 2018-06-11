@@ -4,16 +4,16 @@
 
     + Body
 
-            <!-- include(requests/proposal-creation.json) -->
+            <!-- include(proposal-creation.json) -->
 
 + Response 201 (application/json)
 
     + Body
 
-            <!-- include(responses/proposal-created.json) -->
+            <!-- include(proposal-created.json) -->
 
 + Response 400 (application/json)
 
     + Body
 
-            <!-- include(responses/bad-request.json) -->
+            <!-- include(../../responses/bad-request.json) -->

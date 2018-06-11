@@ -7,7 +7,7 @@ HOST: https://makeyourfrete.com/api/v1
 Grupo de recursos dos perfis administrativos.
 
 ## Conta Administrativa [/admins]
-<!-- include(resources/post-admins.md) -->
+<!-- include(resources/admins/post-admins.md) -->
 
 ## Administrador [/admins/{uid}]
 
@@ -15,10 +15,10 @@ Grupo de recursos dos perfis administrativos.
 
     + uid:`123` (required, int) - Identificador único do administrador.
 
-<!-- include(resources/get-admin.md) -->
+<!-- include(resources/admins/get-admin.md) -->
 
 ## Autenticação [/admins/auth]
-<!-- include(resources/get-admin-auth.md) -->
+<!-- include(resources/admins/get-admin-auth.md) -->
 
 
 
@@ -26,7 +26,7 @@ Grupo de recursos dos perfis administrativos.
 Grupo de recursos dos perfis de motoristas.
 
 ## Conta do Motorista [/workers]
-<!-- include(resources/post-workers.md) -->
+<!-- include(resources/workers/post-workers.md) -->
 
 ## Motorista [/workers/{uid}]
 
@@ -34,10 +34,10 @@ Grupo de recursos dos perfis de motoristas.
 
     + uid:`123` (required, int) - Identificador único do motorista.
 
-<!-- include(resources/get-worker.md) -->
+<!-- include(resources/workers/get-worker.md) -->
 
 ## Autenticação [/workers/auth]
-<!-- include(resources/get-worker-auth.md) -->
+<!-- include(resources/workers/get-worker-auth.md) -->
 
 
 
@@ -45,7 +45,7 @@ Grupo de recursos dos perfis de motoristas.
 Grupo de recursos dos perfis corporativos.
 
 ## Conta da Empresa [/companies]
-<!-- include(resources/post-companies.md) -->
+<!-- include(resources/companies/post-companies.md) -->
 
 ## Empresa [/companies/{uid}]
 
@@ -53,10 +53,10 @@ Grupo de recursos dos perfis corporativos.
 
     + uid:`123` (required, int) - Identificador único da empresa.
 
-<!-- include(resources/get-company.md) -->
+<!-- include(resources/companies/get-company.md) -->
 
 ## Autenticação [/companies/auth]
-<!-- include(resources/get-company-auth.md) -->
+<!-- include(resources/companies/get-company-auth.md) -->
 
 
 
@@ -64,8 +64,8 @@ Grupo de recursos dos perfis corporativos.
 Grupo de recursos das propostas de corrida.
 
 ## Criação e Listagem de Propostas [/proposals]
-<!-- include(resources/post-proposals.md) -->
-<!-- include(resources/get-proposals.md) -->
+<!-- include(resources/proposals/post-proposals.md) -->
+<!-- include(resources/proposals/get-proposals.md) -->
 
 ## Proposta [/proposals/{uid}]
 
@@ -73,7 +73,7 @@ Grupo de recursos das propostas de corrida.
 
     + uid:`123` (required, int) - Identificador único da proposta.
 
-<!-- include(resources/get-proposal-by-id.md) -->
+<!-- include(resources/proposals/get-proposal-by-id.md) -->
 
 ## Oferta de Valor em Proposta [/proposals/{uid}/offers]
 
@@ -81,4 +81,4 @@ Grupo de recursos das propostas de corrida.
 
     + uid:`123` (required, int) - Identificador único da proposta.
 
-<!-- include(resources/post-proposal-offer.md) -->
+<!-- include(resources/proposals/post-proposal-offer.md) -->

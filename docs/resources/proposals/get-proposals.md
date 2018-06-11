@@ -4,10 +4,10 @@
 
     + Body
 
-            <!-- include(requests/proposal-list.json) -->
+            <!-- include(proposal-list.json) -->
 
 + Response 200 (application/json)
 
     + Body
 
-            <!-- include(responses/proposals-listed.json) -->
+            <!-- include(proposals-listed.json) -->
