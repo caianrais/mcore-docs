@@ -1,0 +1,9 @@
+{
+    "auth":{
+        "token":"token-de-autenticacao"
+    },
+    "data":{
+        "offerId": "1"
+        }
+    }
+}
