@@ -1,0 +1,12 @@
+{
+    "code": 200,
+    "data": [
+        {
+            "price": 20000,
+            "proposal": {
+                "uid": 1
+            }
+        }
+    ],
+    "status": "Success"
+}
