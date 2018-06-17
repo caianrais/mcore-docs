@@ -28,6 +28,9 @@ Grupo de recursos dos perfis de motoristas.
 ## Conta do Motorista [/workers]
 <!-- include(resources/workers/post-workers.md) -->
 
+## Autenticação [/workers/auth]
+<!-- include(resources/workers/get-worker-auth.md) -->
+
 ## Motorista [/workers/{uid}]
 
 + Parameters
@@ -36,8 +39,13 @@ Grupo de recursos dos perfis de motoristas.
 
 <!-- include(resources/workers/get-worker-by-id.md) -->
 
-## Autenticação [/workers/auth]
-<!-- include(resources/workers/get-worker-auth.md) -->
+## Ofertas do Motorista [/workers/{uid}/offers]
+
++ Parameters
+
+    + uid:`123` (required, int) - Identificador único do motorista.
+
+<!-- include(resources/workers/get-worker-offers.md) -->
 
 
 
@@ -47,6 +55,9 @@ Grupo de recursos dos perfis corporativos.
 ## Conta da Empresa [/companies]
 <!-- include(resources/companies/post-companies.md) -->
 
+## Autenticação [/companies/auth]
+<!-- include(resources/companies/get-company-auth.md) -->
+
 ## Empresa [/companies/{uid}]
 
 + Parameters
@@ -55,8 +66,13 @@ Grupo de recursos dos perfis corporativos.
 
 <!-- include(resources/companies/get-company-by-id.md) -->
 
-## Autenticação [/companies/auth]
-<!-- include(resources/companies/get-company-auth.md) -->
+## Propostas da Empresa [/companies/{uid}/proposals]
+
++ Parameters
+
+    + uid:`123` (required, int) - Identificador único da empresa.
+
+<!-- include(resources/companies/get-company-proposals.md) -->
 
 
 
